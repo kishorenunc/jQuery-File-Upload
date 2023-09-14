@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-14T09:31:38.744Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="IyeQfzl_ggogNJ_0mejQ" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-14T10:03:10.377Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="CIkO1H3A9cA0BY0np9Is" version="21.7.2" type="github">
   <diagram name="Page-1" id="pNaDvOREIxaKy7lhHose">
     <mxGraphModel dx="1050" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,71 +8,71 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_twTZDA_JsFwgBckwoPd-1" value="&lt;div&gt;Add Entry&lt;/div&gt;&lt;div&gt;In Rest Vehicle with Profile &lt;br&gt;Table == rest_service_vehicles&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="30" width="210" height="60" as="geometry" />
+          <mxGeometry x="390" y="100" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_twTZDA_JsFwgBckwoPd-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_twTZDA_JsFwgBckwoPd-2" target="_twTZDA_JsFwgBckwoPd-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_twTZDA_JsFwgBckwoPd-2" value="Batch Job Runs Continously" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="355" y="130" width="120" height="60" as="geometry" />
+          <mxGeometry x="435" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_twTZDA_JsFwgBckwoPd-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_twTZDA_JsFwgBckwoPd-3" target="_twTZDA_JsFwgBckwoPd-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_twTZDA_JsFwgBckwoPd-3" value="Check Vehicle Validation Add/Update" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="220" width="190" height="60" as="geometry" />
+          <mxGeometry x="400" y="290" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_twTZDA_JsFwgBckwoPd-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_twTZDA_JsFwgBckwoPd-4" target="_twTZDA_JsFwgBckwoPd-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_twTZDA_JsFwgBckwoPd-4" value="&lt;div&gt;Add entry&lt;/div&gt;&lt;div&gt;Class Job Queue&lt;/div&gt;&lt;div&gt;with settings&lt;/div&gt;&lt;div&gt;Table == df_cls_veh_job&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="310" width="190" height="80" as="geometry" />
+          <mxGeometry x="400" y="380" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_twTZDA_JsFwgBckwoPd-6" value="&lt;div&gt;Import Clients Setting&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;// cls posting veh settings&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Sveh_settings = [&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&#39;send_all_images&#39; =&amp;gt; 0,&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;first_image_only&#39; =&amp;gt; 0,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;multi_tag&#39; =&amp;gt; 0,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;multiple_images&#39; =&amp;gt; 0/1,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;profile_exists&#39; =&amp;gt; 1,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;retain_sequence&#39; =&amp;gt; 1,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;stop_veh_job&#39; =&amp;gt; 0,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;send_ver_class&#39; =&amp;gt; 0,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;imp_job_id&#39; =&amp;gt; 1,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;compare_updated_img&#39; =&amp;gt; 1,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;compare_score&#39; =&amp;gt; 90,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;replace_bill_board&#39; =&amp;gt; 0&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;];&lt;/div&gt;&lt;div&gt;Table == import_clients&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="20" y="80" width="240" height="320" as="geometry" />
+          <mxGeometry x="100" y="150" width="240" height="320" as="geometry" />
         </mxCell>
         <mxCell id="_twTZDA_JsFwgBckwoPd-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_twTZDA_JsFwgBckwoPd-7" target="_twTZDA_JsFwgBckwoPd-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_twTZDA_JsFwgBckwoPd-7" value="&lt;div&gt;Regular BG Posting Job&lt;/div&gt;&lt;div&gt;Before Posting &lt;br&gt;Table == df_veh_job&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="440" width="190" height="60" as="geometry" />
+          <mxGeometry x="400" y="510" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_twTZDA_JsFwgBckwoPd-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.42;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_twTZDA_JsFwgBckwoPd-8" target="_twTZDA_JsFwgBckwoPd-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_twTZDA_JsFwgBckwoPd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_twTZDA_JsFwgBckwoPd-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="540" y="660" as="targetPoint" />
+            <mxPoint x="620" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_twTZDA_JsFwgBckwoPd-8" value="Check&lt;br&gt;If Rest Veh" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="355" y="545" width="120" height="105" as="geometry" />
+          <mxGeometry x="435" y="615" width="120" height="105" as="geometry" />
         </mxCell>
         <mxCell id="_twTZDA_JsFwgBckwoPd-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_twTZDA_JsFwgBckwoPd-9" target="_twTZDA_JsFwgBckwoPd-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_twTZDA_JsFwgBckwoPd-9" value="Get Profile ID from Rest Vehicle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="234" y="670" width="120" height="60" as="geometry" />
+          <mxGeometry x="314" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_twTZDA_JsFwgBckwoPd-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_twTZDA_JsFwgBckwoPd-10" target="_twTZDA_JsFwgBckwoPd-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_twTZDA_JsFwgBckwoPd-10" value="Get Matching Profile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="474" y="670" width="120" height="60" as="geometry" />
+          <mxGeometry x="554" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_twTZDA_JsFwgBckwoPd-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_twTZDA_JsFwgBckwoPd-11" target="_twTZDA_JsFwgBckwoPd-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_twTZDA_JsFwgBckwoPd-11" value="Get Profile Id and Conditions BG/Blr/Hybrid/LP/Overlay" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="780" width="170" height="60" as="geometry" />
+          <mxGeometry x="410" y="850" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_twTZDA_JsFwgBckwoPd-12" value="Regular BG Posting Job" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="355" y="890" width="120" height="60" as="geometry" />
+          <mxGeometry x="435" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_twTZDA_JsFwgBckwoPd-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.002;exitY=0.836;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_twTZDA_JsFwgBckwoPd-6" target="_twTZDA_JsFwgBckwoPd-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="260" as="sourcePoint" />
-            <mxPoint x="320" y="350" as="targetPoint" />
+            <mxPoint x="490" y="330" as="sourcePoint" />
+            <mxPoint x="400" y="420" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
