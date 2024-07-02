@@ -1,9 +1,109 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T15:53:13.532Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.4" etag="eRkUtHJ0fq-Q0vyuXnT9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-02T17:24:38.830Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="wgsxU88w5fZuP88ZRGjJ" version="24.6.4" type="github">
   <diagram name="Page-1" id="pjkmQPWkWCU5WN50LmGo">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jMqLfZLE3Diyf-ByskLW-1" target="jMqLfZLE3Diyf-ByskLW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jMqLfZLE3Diyf-ByskLW-2" target="jMqLfZLE3Diyf-ByskLW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-2" value="Fetch Latest Job ID&lt;br&gt;&amp;nbsp;Import Job Vehicles&lt;br&gt;Remote ID =0&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jMqLfZLE3Diyf-ByskLW-3" target="jMqLfZLE3Diyf-ByskLW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-3" value="Sort Primary BG, secondary BG&amp;nbsp;&lt;br&gt;&#39;T12&#39;,&#39;T40&#39;,&#39;T41&#39;,&#39;T42&#39;,&#39;T13&#39;,&#39;T15&#39;,&#39;T14&#39;,&#39;T8&#39;,&#39;T11&#39;&lt;br&gt;,&#39;T10&#39;,&#39;T6&#39;,&#39;T7&#39;,&#39;T5&#39;,&#39;T0&#39;,&#39;T1&#39;&lt;br&gt;&lt;br&gt;If(Model==EQ) use T14" style="rounded=1;whiteSpace=wrap;html=1;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="380" width="380" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-4" value="Skip" style="ellipse;whiteSpace=wrap;html=1;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jMqLfZLE3Diyf-ByskLW-5" target="jMqLfZLE3Diyf-ByskLW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jMqLfZLE3Diyf-ByskLW-5" target="jMqLfZLE3Diyf-ByskLW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-5" value="Get Vehicle &lt;br&gt;Available MBUSA Backgrounds" style="rhombus;whiteSpace=wrap;html=1;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="220" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jMqLfZLE3Diyf-ByskLW-7" target="jMqLfZLE3Diyf-ByskLW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-7" value="BG Images Settings&lt;br&gt;1) HS -&amp;gt; 4:3, Angle :&amp;nbsp;EXT330&lt;div&gt;2) ALL_IMS_CROP -&amp;gt;&amp;nbsp;&#39;16:9&#39; with pano&lt;br&gt;3)&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;ALL_IMS_CROP -&amp;gt; 4:3 crop&lt;br&gt;4)&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;HST -&amp;gt; 4:3 , Angle :&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;EXT030&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="530" width="370" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jMqLfZLE3Diyf-ByskLW-8" target="jMqLfZLE3Diyf-ByskLW-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-8" value="Veh Data to Post&lt;div&gt;vin, video_fk, listing_type, year, make, model, trim, stock, body_type&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="660" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jMqLfZLE3Diyf-ByskLW-9" target="jMqLfZLE3Diyf-ByskLW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jMqLfZLE3Diyf-ByskLW-9" target="jMqLfZLE3Diyf-ByskLW-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-9" value="Conditions to Skip" style="rhombus;whiteSpace=wrap;html=1;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="750" width="125" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-11" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="768" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jMqLfZLE3Diyf-ByskLW-13" target="jMqLfZLE3Diyf-ByskLW-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jMqLfZLE3Diyf-ByskLW-13" target="jMqLfZLE3Diyf-ByskLW-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-13" value="Get Veh Status&lt;br&gt;Already Posted" style="rhombus;whiteSpace=wrap;html=1;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="890" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jMqLfZLE3Diyf-ByskLW-14" target="jMqLfZLE3Diyf-ByskLW-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-14" value="Fetch Veh Data&lt;br&gt;hs, hst, pano, 16:9,4:3" style="rounded=1;whiteSpace=wrap;html=1;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="915" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-16" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="915" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jMqLfZLE3Diyf-ByskLW-17" target="jMqLfZLE3Diyf-ByskLW-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-17" value="Post Veh to Server" style="rounded=1;whiteSpace=wrap;html=1;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jMqLfZLE3Diyf-ByskLW-18" target="jMqLfZLE3Diyf-ByskLW-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-18" value="Post Next VIN&lt;br&gt;If available" style="ellipse;whiteSpace=wrap;html=1;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jMqLfZLE3Diyf-ByskLW-19" target="jMqLfZLE3Diyf-ByskLW-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-19" value="Process Video To&lt;br&gt;Store All Images" style="rounded=1;whiteSpace=wrap;html=1;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-22" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jMqLfZLE3Diyf-ByskLW-35" value="Stop" style="ellipse;whiteSpace=wrap;html=1;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1270" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
